@@ -5,4 +5,4 @@ Codigo_Final: Código em python que cria, treina e exporta o modelo. Durante a e
 
 Modelos treinados: métricas dos modelos treinados que não foram utilizados.
 
-Modelo Utilizado: métricas dos modelo treinado que foi utilizados.
+Modelo Utilizado: métricas dos modelo treinado que foi utilizado.
