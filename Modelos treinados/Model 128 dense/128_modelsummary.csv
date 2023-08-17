@@ -1,0 +1,30 @@
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_ids (InputLayer)         [(None, 256)]        0           []                               
+                                                                                                  
+ attention_mask (InputLayer)    [(None, 256)]        0           []                               
+                                                                                                  
+ bert (TFBertMainLayer)         TFBaseModelOutputWi  108310272   ['input_ids[0][0]',              
+                                thPoolingAndCrossAt               'attention_mask[0][0]']         
+                                tentions(last_hidde                                               
+                                n_state=(None, 256,                                               
+                                 768),                                                            
+                                 pooler_output=(Non                                               
+                                e, 768),                                                          
+                                 past_key_values=No                                               
+                                ne, hidden_states=N                                               
+                                one, attentions=Non                                               
+                                e, cross_attentions                                               
+                                =None)                                                            
+                                                                                                  
+ intermediate_layer (Dense)     (None, 128)          98432       ['bert[0][1]']                   
+                                                                                                  
+ output_layer (Dense)           (None, 13)           1677        ['intermediate_layer[0][0]']     
+                                                                                                  
+==================================================================================================
+Total params: 108,410,381
+Trainable params: 108,410,381
+Non-trainable params: 0
+__________________________________________________________________________________________________
