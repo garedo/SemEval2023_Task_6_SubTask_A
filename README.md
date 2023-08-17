@@ -3,5 +3,6 @@ Repositório referente a Task 6 Sub-task A do SemEval 2023. Esse projeto foi bas
 
 Codigo_Final: Código em python que cria, treina e exporta o modelo. Durante a executação, também é feito o teste do modelo e são exportadas a matriz de confusão e as métricas de cada modelo treinado.
 
-Modelos treinados: modelos que foram gerados e suas métricas, mas não foram utilizados.
-Modelo Utilizado: modelo final e suas métricas.
+Modelos treinados: métricas dos modelos treinados que não foram utilizados.
+
+Modelo Utilizado: métricas dos modelo treinado que foi utilizados.
